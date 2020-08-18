@@ -1,0 +1,18 @@
+# user authentication
+=> https://learndjango.com/tutorials/django-login-and-logout-tutorial # best tutorial and updated
+=> https://medium.com/swlh/email-verified-user-registration-and-password-reset-in-django-ffb9b30939a8 # for production with actual mail sending
+=> https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html
+
+# for sending mail using gmail
+=> https://stackoverflow.com/questions/28421887/django-email-with-smtp-gmail-smtpauthenticationerror-534-application-specific-pa#28421995
+
+# sending mail for production
+=> https://simpleisbetterthancomplex.com/tutorial/2016/06/13/how-to-send-email.html
+
+# django rest_framework introduction
+=> https://medium.com/swlh/build-your-first-rest-api-with-django-rest-framework-e394e39a482c
+
+# django rest tutorial (official website)
+=> https://www.django-rest-framework.org/ # then go to tutorial
+
+
