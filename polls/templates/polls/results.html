@@ -1,8 +1,12 @@
-<h2> {{ question.question_text }} </h2>
-<ul>
+<h2 align=center> {{ question.question_text }} </h2>
+
+<p align=center> Answer is {{question.answer}} </p>
+
+{% comment %} <ul>
 {% for choice in question.choice_set.all %}
     <li> {{ choice.choice_text }} -- {{ choice.votes }} Vote{{ choice.votes|pluralize}} </li>
 {% endfor %}
-</ul>
-<a href="{% url 'polls:detail' question.id %}">Vote again ?</a>
-
+</ul> {% endcomment %}
+<div align=center>
+<a href="{% url 'polls:poll_index' %}">Next question ?</a>
+</div>

@@ -1,8 +1,15 @@
 {% extends 'base.html' %}
 
-{% block title %}Home{% endblock %}
+{% block title %} <title>Home</title> {% endblock %}
 
 {% block content %}
+
+<h1 align=center>Welcome to  Django  basic program </h1>
+<h2 align=center>This demo shows most basic form of authentication using Django backend </h2>
+
+<br><br><br><br>
+
+<div align=center>
 {% if user.is_authenticated %}
   Hi {{ user.username }}!
   <p><a href="{% url 'logout' %}">logout</a></p>
@@ -11,4 +18,5 @@
   <a href="{% url 'login' %}">login</a>
   <p><a href="{% url 'password_reset' %}">reset password</a></p>
 {% endif %}
+</div>
 {% endblock %}

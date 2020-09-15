@@ -3,5 +3,6 @@ li a {
 }
 
 body {
-    background: white url("images/disha.jpeg") no-repeat;
+    /* background: white url("images/nature.jpg") no-repeat; */
+    /* if you uncomment above line it will set background image of http://127.0.0.1:8000/polls/ as name nature.jpg */
 }
